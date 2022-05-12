@@ -85,16 +85,16 @@ if __name__ == "__main__":
         "Sofware Developer",
         "Full-time",
         "Agile Technica",
-        date(2020, 1, 4),
-        date(2021, 1, 28)
+        date(2021, 1, 4),
+        date(2022, 1, 28)
     )
 
     me.add_experience(
         "DevOps Engineer",
         "Full-time",
         "JULO",
-        date(2021, 2, 7),
-        None
+        date(2022, 2, 7),
+        date(2022, 6, 24),
     )
 
     me.add_link(
