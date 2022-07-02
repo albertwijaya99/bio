@@ -97,6 +97,14 @@ if __name__ == "__main__":
         date(2022, 6, 24),
     )
 
+    me.add_experience(
+            "Software Engineer",
+            "Full-time",
+            "Indodana",
+            date(2022, 6, 27),
+            None,
+        )
+
     me.add_link(
         "LinkedIn",
         "https://www.linkedin.com/in/albert-wijaya-ba5413181/"

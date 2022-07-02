@@ -10,13 +10,14 @@ import {isMobile} from 'react-device-detect';
 loader.init().then(monaco => {
   const wrapper = document.getElementById("root");
   wrapper.style.height = "100vh";
-  wrapper.style.width = "100%";
+  wrapper.style.width = "100vw";
   let properties = {
     value: code,
     language:  "python",
     theme: 'vs-dark',
     fontSize: "20%",
-    readOnly: true
+    readOnly: true,
+    scrollBeyondLastLine: false
   }
   if (isMobile) {
     properties = {
@@ -24,7 +25,8 @@ loader.init().then(monaco => {
       language:  "python",
       theme: 'vs-dark',
       fontSize: "10%",
-      readOnly: true
+      readOnly: true,
+      scrollBeyondLastLine: false
     }
   }
   
