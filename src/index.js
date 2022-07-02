@@ -15,9 +15,10 @@ loader.init().then(monaco => {
     value: code,
     language:  "python",
     theme: 'vs-dark',
-    fontSize: "20%",
+    fontSize: "25%",
     readOnly: true,
-    scrollBeyondLastLine: false
+    scrollBeyondLastLine: false,
+    rulers: [80]
   }
   if (isMobile) {
     properties = {
@@ -26,7 +27,8 @@ loader.init().then(monaco => {
       theme: 'vs-dark',
       fontSize: "10%",
       readOnly: true,
-      scrollBeyondLastLine: false
+      scrollBeyondLastLine: false,
+      rulers: [80]
     }
   }
   

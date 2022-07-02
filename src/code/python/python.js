@@ -20,7 +20,9 @@ class Bio:
             'end_year': end_year
         })
         
-    def add_certification(self, certificate, issuer, issue_year, expiration_year):
+    def add_certification(
+        self, certificate, issuer, issue_year, expiration_year
+    ):
         self.certifications.append({
             'certificate': certificate,
             'issuer': issuer,
@@ -31,7 +33,9 @@ class Bio:
     def add_skill(self, skill):
         self.skills.append(skill)
 
-    def add_experience(self, position, employment_type, company, start_date, end_date):
+    def add_experience(
+            self, position, employment_type, company, start_date, end_date
+    ):       
         self.experiences.append({
             'position': position,
             'employment_type': employment_type,
