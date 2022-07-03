@@ -102,12 +102,12 @@ if __name__ == "__main__":
     )
     
     me.add_experience(
-            "Software Engineer",
-            "Full-time",
-            "Indodana",
-            date(2022, 6, 27),
-            None,
-        )
+        "Software Engineer",
+        "Full-time",
+        "Indodana",
+        date(2022, 6, 27),
+        None,
+    )
 
     me.add_link(
         "LinkedIn",
