@@ -119,7 +119,7 @@ if __name__ == "__main__":
     )
     me.add_link(
         "GitHub",
-        "https://github.com/albetz99"
+        "https://github.com/albertwijaya99"
     )
 `;
 
