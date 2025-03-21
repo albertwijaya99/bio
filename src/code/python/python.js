@@ -115,15 +115,11 @@ if __name__ == "__main__":
     )
     me.add_link(
         "Website",
-        "https://www.albertwijaya.com/"
+        "https://albertwijaya.vercel.app/"
     )
     me.add_link(
         "GitHub",
         "https://github.com/albetz99"
-    )
-    me.add_link(
-        "HackerRank",
-        "https://www.hackerrank.com/albetz99"
     )
 `;
 
