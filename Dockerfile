@@ -1,5 +1,5 @@
 # Step 1: Build the React app
-FROM arm64v8/node:16 as build
+FROM arm64v8/node:18 as build
 
 WORKDIR /app
 
