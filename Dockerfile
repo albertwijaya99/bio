@@ -1,5 +1,5 @@
 # Step 1: Build the React app
-FROM node:16 as build
+FROM arm64v8/node:16 as build
 
 WORKDIR /app
 
@@ -12,7 +12,7 @@ COPY . .
 RUN npm run build
 
 # Step 2: Serve the React app using Nginx
-FROM nginx:alpine
+FROM arm64v8/nginx:alpine
 
 COPY --from=build /app/build /usr/share/nginx/html
 
